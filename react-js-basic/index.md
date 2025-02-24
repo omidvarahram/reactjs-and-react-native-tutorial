@@ -78,20 +78,24 @@
    - [Comparing Thunk vs Saga](context/11-side-effects-tools.md#comparing-thunk-vs-saga)
    - [Alternatives (e.g., Zustand, RTK Query)](context/11-side-effects-tools.md#alternatives-eg-zustand-rtk-query)
 
-## 12. **[Performance Optimization](context/12-performance.md)**
-   - [React.memo](context/12-performance.md#reactmemo)
-   - [useMemo and useCallback](context/12-performance.md#usememo-and-usecallback)
-   - [Lazy Loading & Code Splitting](context/12-performance.md#lazy-loading--code-splitting)
-   - [Monitoring React Performance](context/12-performance.md#monitoring-react-performance)
+## 12. **[Routing in React](context/12-routing.md)**
+   - [React Router Setup](context/12-routing.md#react-router-setup)
+   - [Dynamic Routes and Nested Routing](context/12-routing.md#dynamic-routes-and-nested-routing)
+   - [Route Guards and Lazy Loading](context/12-routing.md#route-guards-and-lazy-loading)
 
-## 13. **[Testing in React](context/13-testing.md)**
-   - [Unit Testing with Jest](context/13-testing.md#unit-testing-with-jest)
-   - [Component Testing with React Testing Library (RTL)](context/13-testing.md#component-testing-with-react-testing-library-rtl)
-   - [Mocking API Calls](context/13-testing.md#mocking-api-calls)
+## 13. **[Performance Optimization](context/13-performance.md)**
+   - [React.memo](context/13-performance.md#reactmemo)
+   - [useMemo and useCallback](context/13-performance.md#usememo-and-usecallback)
+   - [Lazy Loading & Code Splitting](context/13-performance.md#lazy-loading--code-splitting)
+   - [Monitoring React Performance](context/13-performance.md#monitoring-react-performance)
 
-## 14. **[Best Practices](context/14-best-practices.md)**
-   - [Code Structuring and Naming Conventions](context/14-best-practices.md#code-structuring-and-naming-conventions)
-   - [Reusable Components](context/14-best-practices.md#reusable-components)
-   - [Folder Structure Recommendations](context/14-best-practices.md#folder-structure-recommendations)
-   - [Accessibility in React (ARIA)](context/14-best-practices.md#accessibility-in-react-aria)
-   - [Security Practices in React](context/14-best-practices.md#security-practices-in-react)
+## 14. **[Accessibility in React](context/14-accessibility.md)**
+   - [ARIA Roles and Accessibility Standards](context/14-accessibility.md#aria-roles-and-accessibility-standards)
+   - [Keyboard Navigation Support](context/14-accessibility.md#keyboard-navigation-support)
+   - [Screen Reader Testing](context/14-accessibility.md#screen-reader-testing)
+
+## 15. **[Best Practices](context/15-best-practices.md)**
+   - [Code Structuring and Naming Conventions](context/15-best-practices.md#code-structuring-and-naming-conventions)
+   - [Reusable Components](context/15-best-practices.md#reusable-components)
+   - [Folder Structure Recommendations](context/15-best-practices.md#folder-structure-recommendations)
+   - [Security Practices in React](context/15-best-practices.md#security-practices-in-react)

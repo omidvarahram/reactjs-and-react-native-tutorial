@@ -113,5 +113,5 @@ const element = <h1>Welcome to {name}!</h1>;
 
 ---
 
-[⬅️ Back to Index](../index.md)
+[⬅️ Back to Index](../index.md) | [➡️ Next: Project Setup](2-project-setup.md)
 
