@@ -7,6 +7,12 @@ A brief but usueful ReactJS guide course for (already) React developers
 
 ## 📖 **Index**
 
-* [React JS Basics](./react-js-basic/index.md)
-* [React JS Intermediate](./react-js-intermediate/index.md)
-* [React JS Advanced](./react-js-advanced/index.md)
+## React
+- [Foundation](./react/foundation/index.md)
+- [Intermediate](./react/intermediate/index.md)
+- [Advanced](./react/advanced/index.md)
+
+## React Native
+- [Foundation](./react-native/foundation/index.md)
+- [Intermediate](./react-native/intermediate/index.md)
+- [Advanced](./react-native/advanced/index.md)
