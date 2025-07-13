@@ -1,3 +1,4 @@
+```md
 # React Foundation Index
 
 ## 1. Introduction to React
@@ -35,10 +36,15 @@
 - [6.4 Managing Side Effects](./context/006-state-effects.md#64-managing-side-effects)
 
 ## 7. Interaction with the DOM
-- [7.1 Event Handling in React](./context/007-dom-interaction.md#71-event-handling-in-react)
-- [7.2 Synthetic Events and Event Pooling](./context/007-dom-interaction.md#72-synthetic-events-and-event-pooling)
-- [7.3 PreventDefault, StopPropagation, and Native Events](./context/007-dom-interaction.md#73-preventdefault-stoppropagation-and-native-events)
-- [7.4 Accessing DOM Elements via useRef](./context/007-dom-interaction.md#74-accessing-dom-elements-via-useref)
+- [7.1 What is the Virtual DOM?](./context/007-dom-interaction.md#71-what-is-the-virtual-dom)
+- [7.2 How React Uses the Virtual DOM for Rendering](./context/007-dom-interaction.md#72-how-react-uses-the-virtual-dom-for-rendering)
+- [7.3 Event Handling in React](./context/007-dom-interaction.md#73-event-handling-in-react)
+- [7.4 Synthetic Events and Event Pooling](./context/007-dom-interaction.md#74-synthetic-events-and-event-pooling)
+- [7.5 PreventDefault, StopPropagation, and Native Events](./context/007-dom-interaction.md#75-preventdefault-stoppropagation-and-native-events)
+- [7.6 Accessing DOM Elements via useRef](./context/007-dom-interaction.md#76-accessing-dom-elements-via-useref)
+- [7.7 useLayoutEffect for DOM Measurement](./context/007-dom-interaction.md#77-uselayouteffect-for-dom-measurement)
+- [7.8 Portals and Rendering Outside the Root Tree](./context/007-dom-interaction.md#78-portals-and-rendering-outside-the-root-tree)
+- [7.9 Dangerous DOM Manipulations (When and Why)](./context/007-dom-interaction.md#79-dangerous-dom-manipulations-when-and-why)
 
 ## 8. Conditional Rendering
 - [8.1 `if`, Ternary, and Logical &&](./context/008-conditional-rendering.md#81-if-ternary-and-logical-)
@@ -53,50 +59,58 @@
 - [10.2 useState with Form Inputs](./context/010-forms.md#102-usestate-with-form-inputs)
 - [10.3 Validation Basics](./context/010-forms.md#103-validation-basics)
 
-## 11. Routing
-- [11.1 Intro to React Router](./context/011-routing.md#111-intro-to-react-router)
-- [11.2 Route Setup](./context/011-routing.md#112-route-setup)
-- [11.3 Link and useNavigate](./context/011-routing.md#113-link-and-usenavigate)
-- [11.4 Route Params and Dynamic Routing](./context/011-routing.md#114-route-params-and-dynamic-routing)
-- [11.5 Nested Routes](./context/011-routing.md#115-nested-routes)
+## 11. Async Operations and Side Effects
+- [11.1 Where to Place API Calls in React](./context/011-async-side-effects.md#111-where-to-place-api-calls-in-react)
+- [11.2 useEffect and Async Functions](./context/011-async-side-effects.md#112-useeffect-and-async-functions)
+- [11.3 Managing Loading and Error State](./context/011-async-side-effects.md#113-managing-loading-and-error-state)
+- [11.4 Fetch Abortion, Cleanup, and Cancellation](./context/011-async-side-effects.md#114-fetch-abortion-cleanup-and-cancellation)
+- [11.5 Best Practices for Side Effects](./context/011-async-side-effects.md#115-best-practices-for-side-effects)
 
-## 12. Styling in React
-- [12.1 Traditional CSS in React](./context/012-styling.md#121-traditional-css-in-react)
-- [12.2 CSS Modules](./context/012-styling.md#122-css-modules)
-- [12.3 Styled Components](./context/012-styling.md#123-styled-components)
-- [12.4 Tailwind and Utility-First CSS](./context/012-styling.md#124-tailwind-and-utility-first-css)
+## 12. Routing
+- [12.1 Intro to React Router](./context/012-routing.md#121-intro-to-react-router)
+- [12.2 Route Setup](./context/012-routing.md#122-route-setup)
+- [12.3 Link and useNavigate](./context/012-routing.md#123-link-and-usenavigate)
+- [12.4 Route Params and Dynamic Routing](./context/012-routing.md#124-route-params-and-dynamic-routing)
+- [12.5 Nested Routes](./context/012-routing.md#125-nested-routes)
 
-## 13. React Context (with TypeScript)
-- [13.1 Intro to Context API](./context/013-context.md#131-intro-to-context-api)
-- [13.2 Creating and Providing Context](./context/013-context.md#132-creating-and-providing-context)
-- [13.3 Typing Context Properly](./context/013-context.md#133-typing-context-properly)
-- [13.4 Using Context in Deep Trees](./context/013-context.md#134-using-context-in-deep-trees)
+## 13. Styling in React
+- [13.1 Traditional CSS in React](./context/013-styling.md#131-traditional-css-in-react)
+- [13.2 CSS Modules](./context/013-styling.md#132-css-modules)
+- [13.3 Styled Components](./context/013-styling.md#133-styled-components)
+- [13.4 Tailwind and Utility-First CSS](./context/013-styling.md#134-tailwind-and-utility-first-css)
 
-## 14. Assets and Static Resources
-- [14.1 Importing Images and SVGs](./context/014-assets.md#141-importing-images-and-svgs)
-- [14.2 Using Icon Libraries (e.g. FontAwesome, Heroicons)](./context/014-assets.md#142-using-icon-libraries)
-- [14.3 Importing JSON and Static Data Files](./context/014-assets.md#143-importing-json-and-static-data-files)
+## 14. React Context (with TypeScript)
+- [14.1 Intro to Context API](./context/014-context.md#141-intro-to-context-api)
+- [14.2 Creating and Providing Context](./context/014-context.md#142-creating-and-providing-context)
+- [14.3 Typing Context Properly](./context/014-context.md#143-typing-context-properly)
+- [14.4 Using Context in Deep Trees](./context/014-context.md#144-using-context-in-deep-trees)
 
-## 15. Testing React (with Jest + RTL)
-- [15.1 Unit vs Integration vs E2E](./context/015-testing.md#151-unit-vs-integration-vs-e2e)
-- [15.2 Writing Tests with RTL](./context/015-testing.md#152-writing-tests-with-rtl)
-- [15.3 Testing Props, State, and Events](./context/015-testing.md#153-testing-props-state-and-events)
-- [15.4 Snapshot Testing](./context/015-testing.md#154-snapshot-testing)
-- [15.5 Mocking and Setup Files](./context/015-testing.md#155-mocking-and-setup-files)
+## 15. Assets and Static Resources
+- [15.1 Importing Images and SVGs](./context/015-assets.md#151-importing-images-and-svgs)
+- [15.2 Using Icon Libraries (e.g. FontAwesome, Heroicons)](./context/015-assets.md#152-using-icon-libraries)
+- [15.3 Importing JSON and Static Data Files](./context/015-assets.md#153-importing-json-and-static-data-files)
 
-## 16. Dev Tools and Debugging
-- [16.1 React Developer Tools](./context/016-devtools.md#161-react-developer-tools)
-- [16.2 Logging and Debug Patterns](./context/016-devtools.md#162-logging-and-debug-patterns)
-- [16.3 Common Errors and How to Solve Them](./context/016-devtools.md#163-common-errors-and-how-to-solve-them)
+## 16. Testing React (with Jest + RTL)
+- [16.1 Unit vs Integration vs E2E](./context/016-testing.md#161-unit-vs-integration-vs-e2e)
+- [16.2 Writing Tests with RTL](./context/016-testing.md#162-writing-tests-with-rtl)
+- [16.3 Testing Props, State, and Events](./context/016-testing.md#163-testing-props-state-and-events)
+- [16.4 Snapshot Testing](./context/016-testing.md#164-snapshot-testing)
+- [16.5 Mocking and Setup Files](./context/016-testing.md#165-mocking-and-setup-files)
 
-## 17. 📘 Bonus Reading: Deeper Fundamentals
-- [17.1 What Are React Dependencies?](./context/017-bonus-reading.md#171-what-are-react-dependencies)
-- [17.2 What is Babel and What Does It Do?](./context/017-bonus-reading.md#172-what-is-babel-and-what-does-it-do)
-- [17.3 What is Webpack and What Does It Do?](./context/017-bonus-reading.md#173-what-is-webpack-and-what-does-it-do)
-- [17.4 JavaScript Modules: ES5, ES6, ESNext](./context/017-bonus-reading.md#174-javascript-modules-es5-es6-esnext)
-- [17.5 Configuring Output & Build Settings](./context/017-bonus-reading.md#175-configuring-output--build-settings)
-- [17.6 Deployment Basics for React Apps](./context/017-bonus-reading.md#176-deployment-basics-for-react-apps)
+## 17. Dev Tools and Debugging
+- [17.1 React Developer Tools](./context/017-devtools.md#171-react-developer-tools)
+- [17.2 Logging and Debug Patterns](./context/017-devtools.md#172-logging-and-debug-patterns)
+- [17.3 Common Errors and How to Solve Them](./context/017-devtools.md#173-common-errors-and-how-to-solve-them)
+
+## 18. 📘 Bonus Reading: Deeper Fundamentals
+- [18.1 What Are React Dependencies?](./context/018-bonus-reading.md#181-what-are-react-dependencies)
+- [18.2 What is Babel and What Does It Do?](./context/018-bonus-reading.md#182-what-is-babel-and-what-does-it-do)
+- [18.3 What is Webpack and What Does It Do?](./context/018-bonus-reading.md#183-what-is-webpack-and-what-does-it-do)
+- [18.4 JavaScript Modules: ES5, ES6, ESNext](./context/018-bonus-reading.md#184-javascript-modules-es5-es6-esnext)
+- [18.5 Configuring Output & Build Settings](./context/018-bonus-reading.md#185-configuring-output--build-settings)
+- [18.6 Deployment Basics for React Apps](./context/018-bonus-reading.md#186-deployment-basics-for-react-apps)
 
 ---
 
 [⬅️ Back to Main Index](../../index.md)
+```
