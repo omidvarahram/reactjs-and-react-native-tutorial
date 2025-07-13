@@ -1,4 +1,3 @@
-```md
 # React Foundation Index
 
 ## 1. Introduction to React
@@ -8,10 +7,16 @@
 - [1.4 The React Ecosystem](./context/001-introduction-to-react.md#14-the-react-ecosystem)
 - [1.5 Setting Up the Environment](./context/001-introduction-to-react.md#15-setting-up-the-environment)
 
-## 2. JSX and React Elements
-- [2.1 JSX Syntax and Rules](./context/002-jsx-elements.md#21-jsx-syntax-and-rules)
-- [2.2 Elements and React.createElement](./context/002-jsx-elements.md#22-elements-and-reactcreateelement)
-- [2.3 Nesting and React Children](./context/002-jsx-elements.md#23-nesting-and-react-children)
+## Chapter 2: JSX and React Elements
+
+- [2.1 JSX Syntax and Rules](./context/002-jsx-elements.md#21-jsx-syntax-and-rules)  
+- [2.2 Elements and React.createElement](./context/002-jsx-elements.md#22-elements-and-reactcreateelement)  
+- [2.3 Nesting and React Children](./context/002-jsx-elements.md#23-nesting-and-react-children)  
+- [2.4 cloneElement for Prop Injection](./context/002-jsx-elements.md#24-cloneelement-for-prop-injection)  
+- [2.5 Portals and Outside‑the‑Tree Rendering](./context/002-jsx-elements.md#25-portals-and-outside-the-tree-rendering)  
+- [2.6 Refs and DOM Interaction](./context/002-jsx-elements.md#26-refs-and-dom-interaction)  
+- [2.7 dangerouslySetInnerHTML (Use with Caution)](./context/002-jsx-elements.md#27-dangerouslysetinnerhtml-use-with-caution)
+
 
 ## 3. Functional Components (with TypeScript)
 - [3.1 Writing Functional Components](./context/003-functional-components.md#31-writing-functional-components)
@@ -113,4 +118,3 @@
 ---
 
 [⬅️ Back to Main Index](../../index.md)
-```
