@@ -18,10 +18,18 @@
 - [2.7 dangerouslySetInnerHTML (Use with Caution)](./context/002-jsx-elements.md#27-dangerouslysetinnerhtml-use-with-caution)
 
 
-## 3. Functional Components (with TypeScript)
-- [3.1 Writing Functional Components](./context/003-functional-components.md#31-writing-functional-components)
-- [3.2 Typing Props and Children](./context/003-functional-components.md#32-typing-props-and-children)
-- [3.3 Reusable Component Patterns](./context/003-functional-components.md#33-reusable-component-patterns)
+## Chapter 3: Functional Components (with TypeScript)
+
+- [3.1 Writing Functional Components](./context/003-functional-components.md#31-writing-functional-components)  
+- [3.2 Typing Props and Children](./context/003-functional-components.md#32-typing-props-and-children)  
+- [3.3 Built-in React Hooks](./context/003-functional-components.md#33-built-in-react-hooks)  
+- [3.4 Custom Hooks](./context/003-functional-components.md#34-custom-hooks)  
+- [3.5 Component Lifecycle with useEffect](./context/003-functional-components.md#35-component-lifecycle-with-useeffect)  
+- [3.6 Reusable Component Patterns](./context/003-functional-components.md#36-reusable-component-patterns)  
+- [3.7 Why Functional > Class](./context/003-functional-components.md#37-why-functional--class)  
+- [3.8 TypeScript Cheat Sheet](./context/003-functional-components.md#38-typescript-cheat-sheet)  
+- [3.9 Advanced Hooks & Patterns](./context/003-functional-components.md#39-advanced-hooks--patterns)
+
 
 ## 4. Class Components (with TypeScript)
 - [4.1 Structure and Syntax](./context/004-class-components.md#41-structure-and-syntax)
